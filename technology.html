@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    </link>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <script src="js/index.js"></script>
+    <title>Technologies | Upflux Solutions</title>
+</head>
+
+<body>
+    <header>
+        <div class="at-header-div1">
+            <a href="./index.html"><img src="images/logo.png"></img></a>
+        </div>
+        <span onclick="mobileToggle()" class="at-mob-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </span>
+        <nav id="at-header-nav">
+            <div class="at-mobile-modal-cover" onclick="mobileToggle()"></div>
+            <ul class="at-header-nav-ul-cont">
+                <!-- <li onclick="mobileToggle()" id="mobile-nav-close"><span>X</span></li> -->
+                <li><a href="./index.html">HOME</a></li>
+                <li id="at-development-li">
+                    <a href="#" onclick="openSubmenu('at-development-li')" class="at-submenu-anchor">DEVELOPMENT<svg
+                            xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" viewBox="0 0 384 512"
+                            width="12" height="12">
+                            <path
+                                d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
+                        </svg></a>
+                    <ul class="at-header-submenu1-ul">
+                        <li id="at-development-li-li1">
+                            <a href="#" onclick="openSubmenu('at-development-li-li1')">WEB DEVELOPMENT<svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="13" height="13">
+                                    <path
+                                        d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z" />
+                                </svg></a>
+                            <ul class="at-header-submenu2-ul">
+                                <li><a href="development/web-development/ecommerce.html">E-COMMERCE DEVELOPMENT</a></li>
+                                <li><a href="development/web-development/joomla.html">JOOMLA DEVELOPMENT</a></li>
+                                <li><a href="development/web-development/portal.html">PORTAL DEVELOPMENT</a></li>
+                                <li><a href="development/web-development/index.html">WEB DEVELOPMENT</a></li>
+                                <li><a href="development/web-development/wordpress.html">WORDPRESS DEVELOPMENT</a></li>
+                            </ul>
+                        </li>
+                        <li id="at-development-li-li2">
+                            <a href="#" onclick="openSubmenu('at-development-li-li2')">SOFTWARE DEVELOPMENT<svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="13" height="13">
+                                    <path
+                                        d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z" />
+                                </svg></a>
+                            <ul class="at-header-submenu2-ul">
+                                <li><a href="development/software-development/crm-solutions.html">CRM SOLUTIONS</a></li>
+                                <li><a href="development/software-development/erp-solutions.html">ERP SOLUTIONS</a></li>
+                                <li><a href="development/software-development/hrms-solutions.html">HRMS SOLUTIONS</a>
+                                </li>
+                                <li><a href="development/software-development/payroll-solutions.html">PAYROLL
+                                        SOLUTIONS</a></li>
+                            </ul>
+                        </li>
+                        <li id="at-development-li-li3">
+                            <a href="#" onclick="openSubmenu('at-development-li-li3')">APPS DEVELOPMENT<svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="13" height="13">
+                                    <path
+                                        d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z" />
+                                </svg></a>
+                            <ul class="at-header-submenu2-ul">
+                                <li><a href="development/apps-development/index.html">APPLICATION DEVELOPMENT</a></li>
+                                <li><a href="development/apps-development/classified-apps.html">CLASSIFIED APPS</a></li>
+                                <!-- <li><a href="development/apps-development/corporate-apps.html">CORPORATE APPS</a></li> -->
+                                <li><a href="development/apps-development/ecommerce-apps.html">E-COMMERCE APPS</a></li>
+                                <li><a href="development/apps-development/educational-apps.html">EDUCATIONAL APPS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="at-development-li-li4">
+                            <a href="#" onclick="openSubmenu('at-development-li-li4')">OTHER WEB SOLUTIONS<svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="13" height="13">
+                                    <path
+                                        d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z" />
+                                </svg></a>
+                            <ul class="at-header-submenu2-ul">
+                                <li><a href="development/other-web-solutions/graphic-design.html">MULTI MEDIA AND
+                                        GRAPHIC DESIGNING</a></li>
+                                <li><a href="development/other-web-solutions/redesigning-website.html">REDESIGNING
+                                        WEBSITES/PORTALS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li id="at-service-li">
+                    <a href="#" onclick="openSubmenu('at-service-li')" class="at-submenu-anchor">SERVICES<svg
+                            xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" viewBox="0 0 384 512"
+                            width="12" height="12">
+                            <path
+                                d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
+                        </svg></a>
+                    <ul class="at-header-submenu1-ul">
+                        <li><a href="services/portals.html">PORTAL'S</a></li>
+                        <li id="at-service-li-li1">
+                            <a href="#" onclick="openSubmenu('at-service-li-li1')">OUT SOURCING<svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="13" height="13">
+                                    <path
+                                        d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z" />
+                                </svg></a>
+                            <ul class="at-header-submenu2-ul">
+                                <li><a href="services/web-hosting.html">WEB HOSTING COMPANY</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li id='at-dig-mark-li'>
+                    <a href="#" onclick="openSubmenu('at-dig-mark-li')" class="at-submenu-anchor">DIGITAL MARKETING<svg
+                            xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" viewBox="0 0 384 512"
+                            width="12" height="12">
+                            <path
+                                d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
+                        </svg></a>
+                    <ul class="at-header-submenu1-ul">
+                        <li><a href="digital-marketing/search-engine-optimization.html">SEARCH ENGINE OPTIMIZATION</a>
+                        </li>
+                        <li><a href="digital-marketing/social-media-marketing.html">SOCIAL MEDIA MARKETING(SMM)</a></li>
+                    </ul>
+                </li>
+                <li id='at-product-li'>
+                    <a href="#" onclick="openSubmenu('at-product-li')" class="at-submenu-anchor">PRODUCTS<svg
+                            xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" viewBox="0 0 384 512"
+                            width="12" height="12">
+                            <path
+                                d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
+                        </svg></a>
+                    <ul class="at-header-submenu1-ul at-nav-right-align">
+                        <li><a href="products/corporate-accounting.html">CORPORATE ACCOUNTING</a></li>
+                        <li><a href="products/hrms-feature.html">HRMS FEATURES</a></li>
+                        <li><a href="products/job-portal.html">JOB PORTAL</a></li>
+                        <li><a href="products/project-management-with-crm.html">PROJECT MANAGEMENT WITH CRM</a></li>
+                    </ul>
+                </li>
+                <li id="at-why-li" class="at-menu-active">
+                    <a href="#" onclick="openSubmenu('at-why-li')" class="at-submenu-anchor">WHY UPFLUX<svg
+                            xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" viewBox="0 0 384 512"
+                            width="12" height="12">
+                            <path
+                                d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
+                        </svg></a>
+                    <ul class="at-header-submenu1-ul at-nav-right-align">
+                        <li><a href="about.html">ABOUT UPFLUX</a></li>
+                        <li><a href="contact-us.html">CONTACT US</a></li>
+                        <li class="at-menu-active"><a href="#">TECHNOLOGY</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="at-main-navigator-div">
+        <a href="./index.html">Home</a>
+        <span>></span>
+        <a href="#">Technology</a>
+    </div>
+    <div class="at-main-content-cont">
+        <div class="at-main-content-nav">
+            <ul>
+                <li><a href="./about.html">About Upflux</a></li>
+                <li><a href="./contact-us.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="at-main-content-div">
+            <section>
+                <h2 class="at-mc-subheading">Upflux Solutions Private Limited in Chennai Technology Used for developing
+                    projects</h2>
+                <ul>
+                    <li>PHP, MySQL, JQuery, Angular JS</li>
+                    <li> PHP, Oracle, JQuery, Angular JS</li>
+                    <li>ASP.NET with C#, Oracle, JQuery, Angular JS</li>
+                    <li>SAP with Oracle</li>
+                    <li>CMS – Joomla, WordPress, Drupal</li>
+                    <li>E-Commerce – Opencart, Woocommerce, Magento</li>
+                    <li>Blog and Forum – WordPress, phpbb</li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="at-mc-subheading">Upflux Solutions Private Limited in Chennai Server Technology</h2>
+                <ul>
+                    <li> VMware ESi 5.5 including Windows Server 2012 Cloud, Red hat Enterprise</li>
+                    <li>Linux 7.0</li>
+                    <li>Oracle 11g and 12c Database Server (RAC and Data Guard)</li>
+                    <li>MySql Server</li>
+                    <li>Cloud Server Support</li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="at-mc-subheading">ITES Technology</h2>
+                <ul>
+                    <li> Ticketing Management</li>
+                    <li>Chat System</li>
+                    <li>Data Analysis</li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="at-mc-subheading">Visual Technology</h2>
+                <ul>
+                    <li>Adobe after Effects CC</li>
+                    <li>Maya</li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="at-mc-subheading">Hardware Networking</h2>
+                <ul>
+                    <li> DELL, HP and IBM Servers (Cluster and RAC Servers)</li>
+                    <li>Dlink and Cisco Switches</li>
+                    <li> 6 and Fiber Networks</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <div class="at-footer-div1">
+            <div class="at-footer-services">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>><a href="development/web-development/joomla.html">JOOMLA DEVELOPMENT</a></li>
+                    <li>><a href="development/web-development/portal.html">PORTAL DEVELOPMENT</a></li>
+                    <li>><a href="development/web-development/index.html">WEB DEVELOPMENT</a></li>
+                    <li>><a href="development/apps-development/index.html">APPLICATION DEVELOPMENT</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Reach us</h2>
+                <div class="at-map-div">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4372165714835!2d80.19405251404382!3d13.007806317604146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526707e7f3233d%3A0x964cdbd38db53f59!2sSoftfocal%20Technology!5e0!3m2!1sen!2sin!4v1658853798711!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="at-footer-address">
+                <h2>Address</h2>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                        class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                    <div>
+                        <p>Upflux Solutions</p>
+                        <p>Old No.74, New No. 124,</p>
+                        <p>Sri Balaji Tower,</p>
+                        <p>Mount Road,</p>
+                        <p>Guindy,</p>
+                        <p>Chennai – 600032.</p>
+                    </div>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-phone" viewBox="0 0 16 16">
+                        <path
+                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                    </svg>
+                    <div>
+                        <p>044-46310899</p>
+                    </div>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg>
+                    <div>
+                        <p>info@upfluxsolutions.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="at-footer-div2">
+            <p>Design & Developed by Upflux Solutions © 2022. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>

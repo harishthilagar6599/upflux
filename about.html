@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    </link>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <script src="js/index.js"></script>
+    <title>About Upflux Solutions</title>
+</head>
+
+<body>
+    <header>
+        <div class="at-header-div1">
+            <a href="./index.html"><img src="images/logo.png"></img></a>
+        </div>
+        <span onclick="mobileToggle()" class="at-mob-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </span>
+        <nav id="at-header-nav">
+            <div class="at-mobile-modal-cover" onclick="mobileToggle()"></div>
+            <ul class="at-header-nav-ul-cont">
+                <!-- <li onclick="mobileToggle()" id="mobile-nav-close"><span>X</span></li> -->
+                <li><a href="./index.html">HOME</a></li>
+                <li id="at-development-li">
+                    <a href="#" onclick="openSubmenu('at-development-li')" class="at-submenu-anchor">DEVELOPMENT<svg
+                            xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" viewBox="0 0 384 512"
+                            width="12" height="12">
+                            <path
+                                d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
+                        </svg></a>
+                    <ul class="at-header-submenu1-ul">
+                        <li id="at-development-li-li1">
+                            <a href="#" onclick="openSubmenu('at-development-li-li1')">WEB DEVELOPMENT<svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="13" height="13">
+                                    <path
+                                        d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z" />
+                                </svg></a>
+                            <ul class="at-header-submenu2-ul">
+                                <li><a href="development/web-development/ecommerce.html">E-COMMERCE DEVELOPMENT</a></li>
+                                <li><a href="development/web-development/joomla.html">JOOMLA DEVELOPMENT</a></li>
+                                <li><a href="development/web-development/portal.html">PORTAL DEVELOPMENT</a></li>
+                                <li><a href="development/web-development/index.html">WEB DEVELOPMENT</a></li>
+                                <li><a href="development/web-development/wordpress.html">WORDPRESS DEVELOPMENT</a></li>
+                            </ul>
+                        </li>
+                        <li id="at-development-li-li2">
+                            <a href="#" onclick="openSubmenu('at-development-li-li2')">SOFTWARE DEVELOPMENT<svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="13" height="13">
+                                    <path
+                                        d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z" />
+                                </svg></a>
+                            <ul class="at-header-submenu2-ul">
+                                <li><a href="development/software-development/crm-solutions.html">CRM SOLUTIONS</a></li>
+                                <li><a href="development/software-development/erp-solutions.html">ERP SOLUTIONS</a></li>
+                                <li><a href="development/software-development/hrms-solutions.html">HRMS SOLUTIONS</a>
+                                </li>
+                                <li><a href="development/software-development/payroll-solutions.html">PAYROLL
+                                        SOLUTIONS</a></li>
+                            </ul>
+                        </li>
+                        <li id="at-development-li-li3">
+                            <a href="#" onclick="openSubmenu('at-development-li-li3')">APPS DEVELOPMENT<svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="13" height="13">
+                                    <path
+                                        d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z" />
+                                </svg></a>
+                            <ul class="at-header-submenu2-ul">
+                                <li><a href="development/apps-development/index.html">APPLICATION DEVELOPMENT</a></li>
+                                <li><a href="development/apps-development/classified-apps.html">CLASSIFIED APPS</a></li>
+                                <!-- <li><a href="development/apps-development/corporate-apps.html">CORPORATE APPS</a></li> -->
+                                <li><a href="development/apps-development/ecommerce-apps.html">E-COMMERCE APPS</a></li>
+                                <li><a href="development/apps-development/educational-apps.html">EDUCATIONAL APPS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="at-development-li-li4">
+                            <a href="#" onclick="openSubmenu('at-development-li-li4')">OTHER WEB SOLUTIONS<svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="13" height="13">
+                                    <path
+                                        d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z" />
+                                </svg></a>
+                            <ul class="at-header-submenu2-ul">
+                                <li><a href="development/other-web-solutions/graphic-design.html">MULTI MEDIA AND
+                                        GRAPHIC DESIGNING</a></li>
+                                <li><a href="development/other-web-solutions/redesigning-website.html">REDESIGNING
+                                        WEBSITES/PORTALS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li id="at-service-li">
+                    <a href="#" onclick="openSubmenu('at-service-li')" class="at-submenu-anchor">SERVICES<svg
+                            xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" viewBox="0 0 384 512"
+                            width="12" height="12">
+                            <path
+                                d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
+                        </svg></a>
+                    <ul class="at-header-submenu1-ul">
+                        <li><a href="services/portals.html">PORTAL'S</a></li>
+                        <li id="at-service-li-li1">
+                            <a href="#" onclick="openSubmenu('at-service-li-li1')">OUT SOURCING<svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="13" height="13">
+                                    <path
+                                        d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z" />
+                                </svg></a>
+                            <ul class="at-header-submenu2-ul">
+                                <li><a href="services/web-hosting.html">WEB HOSTING COMPANY</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li id='at-dig-mark-li'>
+                    <a href="#" onclick="openSubmenu('at-dig-mark-li')" class="at-submenu-anchor">DIGITAL MARKETING<svg
+                            xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" viewBox="0 0 384 512"
+                            width="12" height="12">
+                            <path
+                                d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
+                        </svg></a>
+                    <ul class="at-header-submenu1-ul">
+                        <li><a href="digital-marketing/search-engine-optimization.html">SEARCH ENGINE OPTIMIZATION</a>
+                        </li>
+                        <li><a href="digital-marketing/social-media-marketing.html">SOCIAL MEDIA MARKETING(SMM)</a></li>
+                    </ul>
+                </li>
+                <li id='at-product-li'>
+                    <a href="#" onclick="openSubmenu('at-product-li')" class="at-submenu-anchor">PRODUCTS<svg
+                            xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" viewBox="0 0 384 512"
+                            width="12" height="12">
+                            <path
+                                d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
+                        </svg></a>
+                    <ul class="at-header-submenu1-ul at-nav-right-align">
+                        <li><a href="products/corporate-accounting.html">CORPORATE ACCOUNTING</a></li>
+                        <li><a href="products/hrms-feature.html">HRMS FEATURES</a></li>
+                        <li><a href="products/job-portal.html">JOB PORTAL</a></li>
+                        <li><a href="products/project-management-with-crm.html">PROJECT MANAGEMENT WITH CRM</a></li>
+                    </ul>
+                </li>
+                <li id="at-why-li" class="at-menu-active">
+                    <a href="#" onclick="openSubmenu('at-why-li')" class="at-submenu-anchor">WHY UPFLUX<svg
+                            xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" viewBox="0 0 384 512"
+                            width="12" height="12">
+                            <path
+                                d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
+                        </svg></a>
+                    <ul class="at-header-submenu1-ul at-nav-right-align">
+                        <li class="at-menu-active"><a href="#">ABOUT UPFLUX</a></li>
+                        <li><a href="contact-us.html">CONTACT US</a></li>
+                        <li><a href="technology.html">TECHNOLOGY</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="at-main-navigator-div">
+        <a href="./index.html">Home</a>
+        <span>></span>
+        <a href="#">About Upflux</a>
+    </div>
+    <div class="at-main-content-cont">
+        <div class="at-main-content-nav">
+            <ul>
+                <li><a href="./contact-us.html">Contact</a></li>
+                <li><a href="./technology.html">Technology</a></li>
+            </ul>
+        </div>
+        <div class="at-main-content-div">
+            <section>
+                <p>Upflux provides exclusive IT solutions in the areas of Software designing and
+                    development, BPO services, KPO services and Ecommerce services. We provide the next-generation
+                    technology solutions that set standards for industrial expertise, innovative creations and
+                    global-scale quality.</p>
+            </section>
+            <section>
+                <h2 class="at-mc-subheading">Our Vision</h2>
+                <p>We believe our vision to Robustness, Scalability and Security, and we strive to
+                    offer a competitive edge which proves to the success booster.</p>
+            </section>
+            <section>
+                <h2 class="at-mc-subheading">Our Motto’s for Success</h2>
+                <p>Offering unique solutions to different needs, and yet following a tested
+                    standardized methodology as the baseline, which has proven to guarantee success. Effectively
+                    communicating for that perfect synchronization with the clients, which enables us to understand the
+                    requirements better. Effectively utilizing the available resources, to obtain the maximum possible
+                    benefits and providing optimum results. Engaging in providing cost- effective solutions and
+                    minimizing investments with skilful dexterity. Balancing client’s interests with functional
+                    implementation of our exclusively innovative ideas.</p>
+            </section>
+            <section>
+                <h2 class="at-mc-subheading">Our Dedication:</h2>
+                <p>Upflux strives to be remembered for its commitment and dedication towards its
+                    services. We accept individual responsibility for our commitments, and expect to be accountable for
+                    the results that we generate. Adorned with integrity, professionalism and business ethics in all
+                    aspects of our services, we engage in providing perfect solutions. Our global outreach speaks
+                    volumes of our reputation and the quality of the services that we provide. We remain your constant
+                    aid at all times throughout the journey, and we customize ourselves based on your requirements.</p>
+            </section>
+            <div>
+                <h2 class="at-mc-subheading">Solutions:</h2>
+                <section>
+                    <h3 class="at-mc-subheading2">1.IT (Information Technology)</h3>
+                    <p>Upflux professionally trained and well- experienced technical team provides you with the right
+                        IT services that are intended to boost your business and take it to the next level. Upgraded and
+                        functional website development techniques and strategies are utilized to offer effective website
+                        solutions. Our Technical Proficiency includes:</p>
+                    <p>Functional knowledge in web development tools like Java, HTML, ASP.Net, CSS, Perl, Ajax and
+                        others are used efficiently.
+                        Utilization of dedicated open-source web servers like Apache HTTP servers and IIS.</p>
+                    <p>Skilful and proficient usage of online IDEs and Web Editor services like JSFiddle, Cloud9, and
+                        CodePen; offline IDEs like Visual Studio, Chutzpah, CodeMaid, Node.js, PHP Tools, Eclipse and so
+                        on.</p>
+                    <p>Effective utilization of popular plugins for Web Development like Nodeclipse, WTP, NetBeans IDE,
+                        WebStorm, AngularJS Eclipse, etc.</p>
+                    <p>Dexterity in the usage of offline Web editors like Atom, Dreamweaver, Rapid CSS, Notepad++,
+                        Sublime text and many more
+                        Expertise in the utilization of supporting softwares like Adobe Photoshop, CorelDRAW, Splashup,
+                        Wufoo, Flash Professional and so on.</p>
+                </section>
+                <section>
+                    <h3 class="at-mc-subheading2">BPO:</h3>
+                    <p>Upflux offers the provision of global inbound and outbound services, that are cost-effective and
+                        customized to fulfil the quality criteria. We insist on a three- tiered quality mapping and
+                        control
+                        strategy, which enhances superiority over other companies. We accept all kinds of Voice and Non-
+                        Voice projects of any size, and we deliver outstanding outputs in the client- specified terms.
+                    </p>
+                </section>
+            </div>
+            <div>
+                <h2 class="at-mc-subheading">We provide BPO services in these various sectors:</h2>
+                <section>
+                    <h3 class="at-mc-subheading2">Healthcare:</h3>
+                    <p>We offer BPO services in healthcare sector and we hire highly experienced and trained healthcare
+                        specialists for that purpose. We take care of all inbound and outbound processes related to
+                        medical coding services, professional- quality medical transcriptions, medical insurance, EHR
+                        compatible reports, and so on that improve the revenue cycle results. An advanced training
+                        program is also established to guarantee that the best of these services are provided. We
+                        believe our goals to be producing quality transcription and reducing the turnaround time.</p>
+                </section>
+                <section>
+                    <h3 class="at-mc-subheading2">Real – Estate:</h3>
+                    <p>We deal with inbound and outbound processes related to buying and selling properties, financial
+                        reporting, lease and rent administration. We are well- knit with reputed proprietors, real-
+                        estate firms and private agencies, through our expertise in the field. Our integrated services
+                        merge front and back office functions into one solution, allowing the clients to improve their
+                        profits. We provide customer invoicing, payment processing, lease administration,
+                        consolidations, MRI application management, customer services and many more.</p>
+                </section>
+                <section>
+                    <h3 class="at-mc-subheading2">Marketing:</h3>
+                    <p>Upflux is a pioneer in the field of marketing and advertisements. We are endowed with effective
+                        strategies and practical experience in this sector. We provide promotional activities in public
+                        arenas, direct marketing campaigns, media management, cross selling, and advertising. We
+                        comprehensively research and promote surveys to understand the customer needs and get an insight
+                        into their behaviour. We are well versed in building trust with the customer base, and
+                        delivering new ways to drive revenue growth with newer channels.</p>
+                </section>
+                <section>
+                    <h3 class="at-mc-subheading2">Finance:</h3>
+                    <p>We offer BPO services in commercial banking, retail banking,analytics services, finance and
+                        accounting services, training services, customer acquisition services, consumer handling
+                        services, financial records and many more. We have globalized dealings such as the provision of
+                        international gateways for online payments. We possess expertise in credit card services,
+                        documents management, transaction processing, debt management, loan processing, mortgages,
+                        network and storage services. With our services, you are bound to reach your targets within the
+                        turnaround time, along with a significant raise in your profits.</p>
+                </section>
+                <section>
+                    <h3 class="at-mc-subheading2">HR services:</h3>
+                    <p>Upflux Tech Solutions Private Limited is one among the top recruiting firms. We provide
+                        end-to-end HR domestic and overseas HR solutions, with the inclusions of workforce
+                        administration solutions, payroll administration, documents management, tax processing,
+                        recruitment services, and benefit administration. Our seamless collaborations with the top-
+                        profile companies across the globe, is done through a combination of diligent networking and
+                        aggressive research. We add values to all the stages of the recruitment process, reduce
+                        recruitment costs, and improve bottom lines for our corporate clients.</p>
+                </section>
+                <section>
+                    <h3 class="at-mc-subheading2">Telecom services:</h3>
+                    <p>Upflux Tech Solutions offers BPO services in the telecom industry that are meant to speed up the
+                        success rate of your business. We indulge in selling post-paid and pre-paid services along with
+                        resource management and operations, customer relationship management, supply chain management
+                        and documents management. We deliver high quality customer service support enhanced with
+                        functional implementation of our innovative strategies. We register and utilize all potentials
+                        to their maximum, and we come up with effective communication services.</p>
+                </section>
+                <section>
+                    <h3 class="at-mc-subheading2">Ecommerce:</h3>
+                    <p>Upflux Solutions offers exclusive ecommerce services that guarantee better traffic to your
+                        website, leading increased sales and a higher business. We utilize reputed hosting services for
+                        registering your domain name, and we engage in hosting the innovatively designed websites. We
+                        provide a long- term web hosting service, and we make improvements wherever necessary
+                        periodically.</p>
+                    <p>We also provide website maintenance services starting with content development, content editing
+                        and simple website updates, to including new functionalities in it. We provide responsive
+                        designing services for all mediums and platforms. We handle troubleshoot issues and provide
+                        constant support to our clients. With our ecommerce services, you are guaranteed better traffic
+                        to your website, leading increased sales and a higher business.</p>
+                </section>
+                <section>
+                    <h3 class="at-mc-subheading2">KPO</h3>
+                    <p>KPO service strives to be successful, by increasing your productivity, giving access to special
+                        skills, and enhancing organizational effectiveness. Upflux Solutions offers various KPO services
+                        like Basic & Advanced book keeping, Accounts finalization, Accounts and Tax consulting,
+                        Investment research services, Data Analytics, Legal process outsourcing, Business operations
+                        support, Analytics and Management.</p>
+                    <p>KPO service focuses on fast- moving domains to provide accelerated solutions to our customers. We
+                        ensure accurate and effective book procedures as per local accounting practices, standards and
+                        norms. We provide flexibility in terms of HRM and time management, and we offer cost effective
+                        solutions by off-shoring work to low wage countries.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="at-footer-div1">
+            <div class="at-footer-services">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>><a href="development/web-development/joomla.html">JOOMLA DEVELOPMENT</a></li>
+                    <li>><a href="development/web-development/portal.html">PORTAL DEVELOPMENT</a></li>
+                    <li>><a href="development/web-development/index.html">WEB DEVELOPMENT</a></li>
+                    <li>><a href="development/apps-development/index.html">APPLICATION DEVELOPMENT</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Reach us</h2>
+                <div class="at-map-div">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4372165714835!2d80.19405251404382!3d13.007806317604146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526707e7f3233d%3A0x964cdbd38db53f59!2sSoftfocal%20Technology!5e0!3m2!1sen!2sin!4v1658853798711!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="at-footer-address">
+                <h2>Address</h2>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                        class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                    <div>
+                        <p>Upflux Solutions</p>
+                        <p>Old No.74, New No. 124,</p>
+                        <p>Sri Balaji Tower,</p>
+                        <p>Mount Road,</p>
+                        <p>Guindy,</p>
+                        <p>Chennai – 600032.</p>
+                    </div>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-phone" viewBox="0 0 16 16">
+                        <path
+                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                    </svg>
+                    <div>
+                        <p>044-46310899</p>
+                    </div>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg>
+                    <div>
+                        <p>info@upfluxsolutions.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="at-footer-div2">
+            <p>Design & Developed by Upflux Solutions © 2022. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
